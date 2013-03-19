@@ -1,4 +1,4 @@
-<!-- insert_after '[data-hook="product_description"] div[itemprop="description"]' -->
+<!-- insert_after '[data-hook="cart_form"]' -->
 <% if @product.parts.any? %>
 <ul id="products" class="inline product-listing" data-hook>
   <% @product.parts.each do |variant| %>
